@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新潮AI大业</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>新潮AI大业</h1>
+        <nav>
+            <a href="#vpn">VPN 服务</a>
+            <a href="#chatgpt">ChatGPT 服务</a>
+            <a href="#ai-tools">AI 工具</a>
+            <a href="#contact">联系我们</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="vpn">
+            <h2>VPN 服务：西瓜加速</h2>
+            <p><strong>网址：</strong><a href="https://ac.xgjs1.xyz" target="_blank">西瓜加速</a></p>
+            <ul>
+                <li><strong>99元/1000G/年：</strong>支持3台设备，仅文字GPT使用。</li>
+                <li><strong>69元/1000G/月：</strong>支持8台设备，针对图片和视频生成。</li>
+            </ul>
+        </section>
+
+        <section id="chatgpt">
+            <h2>ChatGPT 服务</h2>
+            <h3>免费版</h3>
+            <p>提供 GPT4-o mini 对话。</p>
+            <h3>ChatGPT Plus 用户（$20/月）</h3>
+            <ul>
+                <li>GPT4-O1 和 O1mini 对话模型的有限次数访问。</li>
+                <li>DALL·E 3：15 次图片生成限制。</li>
+                <li>Sora：50 个 20 秒的 480 分辨率视频。</li>
+            </ul>
+            <h3>ChatGPT Pro 用户（$200/月）</h3>
+            <ul>
+                <li>GPT4-O1 和 O1mini 无限制，并可使用更高级的 O1 pro。</li>
+                <li>DALL·E 3：无限制图片生成。</li>
+                <li>Sora：无限制 20 秒的 1080 分辨率视频。</li>
+            </ul>
+        </section>
+
+        <section id="ai-tools">
+            <h2>AI 工具介绍</h2>
+            <div class="tool">
+                <h3>DALL·E 3 (OpenAI)</h3>
+                <ul>
+                    <li>优点：高质量图像生成，支持文本到图像转换。</li>
+                    <li>价格：$20/月（ChatGPT Plus），$200/月（Pro）。</li>
+                    <li><a href="https://openai.com/dall-e" target="_blank">官网</a></li>
+                </ul>
+            </div>
+            <div class="tool">
+                <h3>MidJourney</h3>
+                <ul>
+                    <li>优点：艺术风格图像生成，适合创意项目。</li>
+                    <li>价格：免费（25次）；基础版$10/月；标准版$30/月；专业版$60/月。</li>
+                    <li><a href="https://www.midjourney.com" target="_blank">官网</a></li>
+                </ul>
+            </div>
+            <div class="tool">
+                <h3>Stable Diffusion</h3>
+                <ul>
+                    <li>开源工具，支持高质量图像生成。</li>
+                    <li>价格：免费版有限次数，付费版 $1 每 1,000 Tokens。</li>
+                    <li><a href="https://stablediffusionweb.com" target="_blank">官网</a></li>
+                </ul>
+            </div>
+            <div class="tool">
+                <h3>Runway ML</h3>
+                <ul>
+                    <li>无代码创意 AI 平台，提供图像、视频、音频生成工具。</li>
+                    <li>价格：免费版（有限功能）；Creator $15/月；Pro $35/月。</li>
+                    <li><a href="https://runwayml.com" target="_blank">官网</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系我们</h2>
+            <p>邮箱：xinchaochuanmei2024@gmail.com</p>
+            <p>密码：xinchao2024AI</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 新潮AI大业. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0078D7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    color: #0078D7;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
